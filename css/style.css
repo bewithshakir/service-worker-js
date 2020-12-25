@@ -1,0 +1,28 @@
+.header {
+    padding: 50px 30px;
+    background-color: black;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    background-color: lightblue;
+}
+.navbar li a {
+    padding: 10px;
+    border: 1px solid;
+    color: black;
+    display: inline-block;
+}
+.navbar li a.active {
+    background-color: lightsalmon;
+}
+.main {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
